@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <main>
+        <section class="d-flex ">
+            <div>
+                <img src="images/mac.png" style="width: 80%">
+            </div>
+            <div class="card border-0" style="width: 50%;">
+                <h1>Customize your Blue 24-inch iMac with Apple M1 chip</h1>
+                <div class="card-body">
+
+                    <p class="card-text">Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores
+                        cores, 7-core GPU, and 16-core neural engine 8GB unified memory 256GB SSD storage Two
+                        Thunderbolt//USB 4 ports Magic Mouse Magic Keyboard - US English</p>
+                    <p>memory</p>
+
+                    <button type="button" class="btn btn-outline-secondary" id="unified">8GB unified memory</button>
+                    <button type="button" class="btn btn-outline-secondary" id="unified-2">16GB unified memory</button>
+                    <p>Storage</p>
+                    <button type="button" class="btn btn-outline-secondary" id="storage">256 GB SSD storage</button>
+                    <button type="button" class="btn btn-outline-secondary" id="storage-2">512 GB SSD storage</button>
+
+                    <button type="button" class="btn btn-outline-secondary" id="memory">1tb unified memory</button>
+
+                    <p>Choose your delivery</p>
+                    <button type="button" class="btn btn-outline-secondary" id="prime-delivery">Friday August 25 Free
+                        prime
+                        delivery</button>
+                    <button type="button" class="btn btn-outline-secondary" id="delivary">Friday August 21 delivery
+                        charge
+                        $20</button>
+                    <br>
+                    <br>
+                    <table class="table">
+                        <thead>
+                            <tr>
+
+                                <th scope="col">Best Price</th>
+                                <th scope="col">$<span>1299</span id="best-price"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+
+                                <td>Extra Memory Cost</td>
+                                <td>$<span id="extra-memory-cost">0</span></td>
+
+                            </tr>
+                            <tr>
+
+                                <td>Extra storage charge</td>
+                                <td>$<span id="extra-storage-charge">0</span></td>
+
+                            </tr>
+                            <tr>
+                                <td>delivery Charge</td>
+
+                                <td>$<span id="delivery-charge">0</span></td>
+                            </tr>
+
+                        </tbody>
+                        <tr>
+
+                            <th scope="col">Total Price</th>
+                            <th scope="col">$<span id="total">1299</span></th>
+                        </tr>
+                    </table>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="" aria-label=""
+                            aria-describedby="button-addon2" id="cupon-id">
+                        <button class="btn btn-danger" type="button" id="cupon-btn">Add</button>
+                    </div>
+
+
+        </section>
+
+
+        <h1 style="text-align: center;">total:<span id="result">1299</span></h1>
+
+
+    </main>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
